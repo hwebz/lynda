@@ -1,0 +1,50 @@
+MEAN
+  stands for Mongo, Express, Angular and Node
+  splits code between server and client
+
+MongoDB
+  for database
+
+Express.JS
+  for Web API
+
+Angular.JS
+  for front-end
+
+Node.JS
+  for back-end
+
+1, Install MongoDB for Windows and insert the path to MongoDB bin folder to Environment Variables, make c:\data\db folder and run "mongod" and "mongo" to start and connect to MongoDB service.
+2, Install Git
+3, Using Yeoman at http://yeoman.io to create initial template for MEAN project (npm install -g yo) and choose which template do you want to use in its website.
+4, npm install -g gulp bower
+5, npm install -g generator-gulp-angular
+6, create new project using template by typing "yo gulp-angular my-message-front"
+7, create back-end folder and run "npm init" -> "npm install express -save".
+8, install PostMan extension for Chrome to monitoring request and response
+9, npm install body-parser
+10, npm install mongodb
+
+Satellizer
+    is an Angular Authorization
+bower install satellizer --save
+
+for back-end install jwt-simple "npm install jwt-simple --save" and "npm install moment --save"
+
+WHAT WE LEARN
+    Node Package Manager
+    Express
+        Middleware
+        Controllers or request handlers
+    Mongo
+        MongoDB and Mongoose library
+        Schemas and models
+    Angular
+        Directives
+        Controllers
+        Views
+        Routes and States
+    Authentication
+        Registration and login
+        Authorization
+        Tokens
