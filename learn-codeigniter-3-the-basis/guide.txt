@@ -1,0 +1,17 @@
+What you should know?
+	POST and GET methods
+	Arrays
+	Sessions
+	HTML
+	Basic knowdledge about OOP
+
+Setting up a Web server stack
+	Web server (Apache, PHP's internal server, etc...)
+	Database (MySQL)
+	IDE (Sublime textm PhpStorm, etc...)	
+
+ITerm 2 (for console improvement)
+FishShell (user-friendly command line shell)
+Composer
+
+evn DB_USER=root DB_PASSWD=root DB_NAME=ci_course php -S localhost:8080

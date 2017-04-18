@@ -1,0 +1,53 @@
+Install all dependencies:
+    - Symfony: A PHP development framework
+    - Composer: A PHP dependencies manager
+    - Packagist: A main Composer repository
+    - Eloquent ORM: Object relational manager for databases
+    - Blade: Laravel templating engine
+
+Install Laravel
+    - Install Composer first (Mac: sudo mv composer.phar /usr/local/bin/composer)
+    - Install Mcrypt library for Laravel (PHP extension)
+    - run cmd to install Laravel: composer create-project laravel/laravel firstapp --prefer-dist
+    - locate to firstapp folder and run cmd to start the server: php artisan serve
+    
+Connect to the database
+    - change config settings in config/database.php and .env file to use Schema class to create tables.
+    
+Enable Version Control with Migrations
+    - php artisan make:migration create_art (to create migration)
+    - php artisan migrate:install (to execute migration)
+    - php artisan migrate (confirmation to migrate)
+    - php artisan migrate:rollback (to rollback the change)
+    
+Create new migration:
+    - php artisan make:migration create-paintings
+    
+Create new model:
+    - php artisan make:model Painting
+
+Create new migration:
+    - php artisan make:migration create_users
+
+Create new session table:
+    - php artisan session:table
+
+Migrate database from existing migrations
+    - php artisan migrate
+    
+To install Form, do the following step:
+    1, composer require laravelcollective/html
+    2, insert 
+        Collective\Html\HtmlServiceProvider::class
+        to "providers" array in config/app.php file
+    3, insert
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class
+        to "aliases" array in config/app.php file
+
+Use PHPUnit for testing in Laravel
+    - insert "phpunit/phpunit": "3.7.*" to "require-dev" key in composer.json file
+    - run "composer update"
+    - run "alias phpunit='vendor/bin/phpunit'" to grant alias for phpunit
+     or go directly to vendor/bin/ to run phpunit
+    - to test run "phpunit tests\ExampleTest.php" (you can use another php test files)

@@ -1,0 +1,16 @@
+NodeJS
+AngularJS 2 (Can use ES5 (JavScript), Dart or TypeScript (recommended), built in TypeScript (ES6: classes, ES6: templates, TypeScript: types, TypeScript: annotations, Requires build tools))
+TypeScript (npm install -g typescript)
+GulpJS (npm install --global gulp-cli)
+Github Repo: https://github.com/planetoftheweb/angular2
+
+npm install -g typescript
+npm install -g gulp-cli
+mkdir angular2
+cd angular2
+git clone --bare https://github.com/planetoftheweb/angular2.git .git
+git config --bool core.bare false
+git reset --hard
+git branch
+git checkout 02_07b
+git checkout master

@@ -1,0 +1,5 @@
+NodeJS
+TypeScript
+AngularJS 2
+Bootstrap
+Atom

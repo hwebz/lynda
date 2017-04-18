@@ -1,0 +1,30 @@
+AJAX = Asynchronous JavaScript and XML
+	AHAH = Asynchronous HTML and HTTP
+Changing the page without reloading
+	Pre-built HTML grafments (even whole pages)
+	Data retrieved from elsewhere on your server
+	Data from anywhere at all!
+Powers many mobile apps
+
+JSON(P): Sharing Data
+	Most popular data transmission format
+		JSON for local data
+		JSONP for remote data
+	Example sources
+		Sunlight Foundation
+		Ziptastic
+
+Challenge: Ziptastic
+	Stop the redundant redundancy!
+	Ask ziptasticapi.com for city and state
+		Update the form accordingly
+	Hints:
+		Note the structure of the request URL
+
+jQuery on lynda.com
+	jQuery for Web Designers
+	jQuery UI Widgets
+	jQuery Essential Training
+	jQuery Mobile Essential Training
+	jQuery Mobile Web Applications
+	Chris Converse's jQuery series

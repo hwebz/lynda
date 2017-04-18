@@ -1,0 +1,17 @@
+npm init
+npm install --save-dev babel-cli@6.4.0
+npm install --save-dev babel-preset-react
+
+change package.json file:
+	"scripts": {
+		"build": "babel js -d built"
+		"start": "open http://localhost:3000 & httpster -p 3000"
+	},
+	"babel": {
+		"presets": ["react"]
+	},
+
+npm install --save httpster
+
+References:
+	React, React Native, Flux, Test Utilities, Jest

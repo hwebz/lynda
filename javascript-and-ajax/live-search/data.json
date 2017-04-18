@@ -1,0 +1,22 @@
+{
+	"speakers": [
+		{
+			"name": "Barot Bellingham",
+			"shortname": "Barot Bellingham",
+			"reknown": "Royal Academy of Painting and Sculpture",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nulla distinctio omnis voluptatum dolorum quasi magni quis. Placeat dignissimos id, dicta amet, reprehenderit quod voluptatem, consequuntur debitis provident, sint unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est iusto tempora, neque dolorem ex alias deserunt voluptatibus odio reiciendis, illum eos. Labore, asperiores quia molestias. Quae hic quas nostrum nemo."
+		},
+		{
+			"name": "Jonathan G.Ferrar II",
+			"shortname": "Jonathan Ferrar",
+			"reknown": "Artist to Watch in 2012",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eligendi molestias eos impedit tenetur? Commodi in inventore natus id quam expedita voluptate velit, enim fugit sunt, sapiente nisi perspiciatis! Neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, hic odio ut dignissimos? Nisi illum iste necessitatibus sed corrupti beatae voluptatum iusto? Voluptate nihil rerum eligendi vel nesciunt molestiae, harum!"
+		},
+		{
+			"name": "John Doe",
+			"shortname": "John Doe",
+			"reknown": "Some other post title",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nulla distinctio omnis voluptatum dolorum quasi magni quis. Placeat dignissimos id, dicta amet, reprehenderit quod voluptatem, consequuntur debitis provident, sint unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est iusto tempora, neque dolorem ex alias deserunt voluptatibus odio reiciendis, illum eos. Labore, asperiores quia molestias. Quae hic quas nostrum nemo."
+		}
+	]
+}
