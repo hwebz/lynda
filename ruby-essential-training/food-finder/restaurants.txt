@@ -1,0 +1,8 @@
+Hot Tamale	Mexican	25
+First	Second	3
+First	Mexican	25
+Second	Indian	13
+First	Mexican	23
+Third	Vietnamese	10
+Forth	Singaporian	8
+pick pocket	Italian	17
